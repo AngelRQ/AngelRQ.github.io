@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michi's Burger</title>
+    <!-- for icons  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <!-- for swiper slider  -->
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+
+    <!-- fancy box  -->
+    <link rel="stylesheet" href="../assets/css/jquery.fancybox.min.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="body-fixed">
+    <!-- start of header  -->
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-10">
+                    <div class="main-navigation">
+                        <button class="menu-toggle"><span></span><span></span></button>
+                        <nav class="header-menu">
+                            <ul class="menu food-nav-menu">
+                                <li><a href="#home">Inicio</a></li>
+                                <li><a href="#about">Nosotros</a></li>
+                                <li><a href="#menu">Planes</a></li>
+                                <li><a href="#gallery">Galería</a></li>
+                                <li><a href="#contact">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header ends  -->
+
+    <div id="viewport">
+        <div id="js-scroll-content">
+            <section class="main-banner" id="home">
+                <div class="js-parallax-scene">
+                    <div class="banner-shape-1 w-100" data-depth="0.30">
+                        <img src="../assets/images/logoAca.jpg" alt="">
+                    </div>
+                    <div class="banner-shape-2 w-100" data-depth="0.25">
+                        <img src="../assets/images/logoAca.jpg" alt="">
+                    </div>
+                </div>
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="banner-text">
+                                    <h1 class="h1-title">
+                                        Kryptex <span>Technology</span>
+                                    </h1>
+                                    <p>¡Bienvenido a Kryptex Technology! <br>
+
+                                        En el fascinante mundo digital, nos complace darte la bienvenida a Kryptex
+                                        Technology, tu socio confiable en la creación de experiencias web
+                                        extraordinarias. En un entorno donde la innovación y la tecnología convergen,
+                                        nuestro equipo apasionado está aquí para transformar tus ideas en realidades
+                                        digitales impresionantes.
+                                    </p>
+                                    <div class="banner-btn mt-4">
+                                        <a href="#menu" class="sec-btn">Nuestros servicios</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="banner-img-wp">
+                                    <div class="banner-img"
+                                        style="background-image: url(../assets/images/logoAca.jpg);">
+                                    </div>
+                                </div>
+                                <div class="banner-img-text mt-4 m-auto"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-sec section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center mb-5">
+                                <p class="sec-sub-title mb-3">Acerca de</p>
+                                <h2 class="h2-title">Historia de <span>Kryptex Technology</span></h2>
+                                
+                                <p>Impulsados por la pasión por la tecnología y el deseo de ayudar a las empresas a
+                                    prosperar en el mundo digital, un equipo de jóvenes emprendedores fundó Kryptex
+                                    Technology. Con una visión clara y un compromiso inquebrantable con la excelencia,
+                                    nos embarcamos en un viaje para convertirnos en líderes en la industria del
+                                    desarrollo web. <br>
+                                    <span class="slogan">Kryptex: Más que una página web, una experiencia digital</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 m-auto">
+                            <div class="about-video">
+                                <div class="about-video-img"
+                                    style="background-image: url(../assets/images/logoAca.jpg);">
+                                </div>
+                                <div class="play-btn-wp">
+                                    <a href="../assets/images/Gatos Graciosos.mp4" data-fancybox="video"
+                                        class="play-btn">
+                                        <i class="uil uil-play"></i>
+
+                                    </a>
+                                    <span>Mira este video.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section style="background-image: url(../assets/images/menu-bg.png);"
+                class="our-menu section bg-light repeat-img" id="menu">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">Nuestros servicios</p>
+                                    <h2 class="h2-title">Conoce nuestros <span>servicios</span></h2>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-tab-wp">
+                            <div class="row">
+                                <div class="col-lg-12 m-auto">
+                                    <div class="menu-tab text-center">
+                                        <ul class="filters">
+                                            <div class="filter-active"></div>
+                                            <li class="filter" data-filter=".all, .diseñoG, .prograM, .prograW">
+                                                Todo
+                                            </li>
+                                            <li class="filter" data-filter=".diseñoG">
+                                                Diseño Gráfico
+                                            </li>
+                                            <li class="filter" data-filter=".prograM">
+                                                Programación Móvil
+                                            </li>
+                                            <li class="filter" data-filter=".prograW">
+                                                Programación Web
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-list-row">
+                            <div class="row g-xxl-5 bydefault_show" id="menu-dish">
+                                <!-- 1 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp diseñoG" data-cat="diseñoG">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="../assets/images/servicios/diseño-grafico.png" alt="">
+                                        </div>
+                                        
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Diseño gráfico</h3>
+                                            <p>Conoce nuestros servicios de diseño gráfico</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>COTIZAR PRECIOS</b>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp prograM" data-cat="prograM">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="../assets/images/servicios/diseño-grafico.png" alt="">
+                                        </div>
+                                        
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Programación Móvil</h3>
+                                            <p>Conoce nuestros servicios de programación móvil</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>COTIZAR PRECIOS</b>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 4 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp prograM" data-cat="prograM">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="../assets/images/servicios/diseño-grafico.png" alt="">
+                                        </div>
+                                        
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Programación Móvil</h3>
+                                            <p>Conoce nuestros servicios de programación móvil</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>COTIZAR PRECIOS</b>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 5 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp prograW" data-cat="prograW">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="../assets/images/servicios/diseño-grafico.png" alt="">
+                                        </div>
+                                       
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Programación Web</h3>
+                                            <p>Conoce nuestros servicios de programación web</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>COTIZAR PRECIOS</b>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 6 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp prograW" data-cat="prograW">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="../assets/images/servicios/diseño-grafico.png" alt="">
+                                        </div>
+                                       
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Programación Web</h3>
+                                            <p>Conoce nuestros servicios de programación web</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>COTIZAR PRECIOS</b>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="book-table section bg-light">
+                <div class="book-table-shape">
+                    <img src="../assets/images/table-leaves-shape.png" alt="">
+                </div>
+
+                <div class="book-table-shape book-table-shape2">
+                    <img src="../assets/images/table-leaves-shape.png" alt="">
+                </div>
+
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">Nuestro horario</p>
+                                    <h2 class="h2-title">Contacta con nosotros</h2>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="book-table-info">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4">
+                                    <div class="table-title text-center">
+                                        <h3>Martes a Viernes</h3>
+                                        <p>5:00 pm - 12:00 am</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="call-now text-center">
+                                        <i class="uil uil-phone"></i>
+                                        <a href="tel:+91-8866998866">+506 - 85680551</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="table-title text-center">
+                                        <h3>Ubicación</h3>
+                                        <p>Puntarenas, Barranca</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row" id="gallery">
+                            <div class="col-lg-10 m-auto">
+                                <div class="book-table-img-slider" id="icon">
+                                    <div class="swiper-wrapper">
+                                        <a href="../assets/images/logoAca.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(/..assets/images/logoAca.jpg)"></a>
+                                        <a href="../assets/images/logoAca.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(../assets/images/logoAca.jpg)"></a>
+                                        <a href="../assets/images/logoAca.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(../assets/images/logoAca.jpg)"></a>
+                                        <a href="../assets/images/logoAca.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(../assets/images/logoAca.jpg)"></a>
+                                        <a href="../assets/images/logoAca.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(../assets/images/logoAca.jpg)"></a>
+                                        <a href="../assets/images/logoAca.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(../assets/images/logoAca.jpg)"></a>
+                                        <a href="../assets/images/logoAca.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(../assets/images/logoAca.jpg)"></a>
+                                        <a href="../assets/images/logoAca.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(../assets/images/logoAca.jpg)"></a>
+                                    </div>
+
+                                    <div class="swiper-button-wp">
+                                        <div class="swiper-button-prev swiper-button">
+                                            <i class="uil uil-angle-left"></i>
+                                        </div>
+                                        <div class="swiper-button-next swiper-button">
+                                            <i class="uil uil-angle-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="our-team section">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">Nuestro equipo</p>
+                                    <h2 class="h2-title">Conócenos</h2>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row team-slider">
+                            <div class="swiper-wrapper">
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box text-center">
+                                        <div style="background-image: url(../assets/images/our/Angel.jpg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-title">Angel Jouseph</h3>
+                                        <p>..............................................</p>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box text-center">
+                                        <div style="background-image: url(../assets/images/our/);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-title">Steven Hernandez</h3>
+                                        <p>...............................................</p>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box text-center">
+                                        <div style="background-image: url(../assets/images/our/);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-title">Brandon Espinoza</h3>
+                                        <p>......................................</p>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-wp">
+                                <div class="swiper-button-prev swiper-button">
+                                    <i class="uil uil-angle-left"></i>
+                                </div>
+                                <div class="swiper-button-next swiper-button">
+                                    <i class="uil uil-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- footer starts  -->
+            <footer class="site-footer" id="contact">
+                <div class="top-footer section">
+                    <div class="sec-wp">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="footer-info">
+                                        <p>"¡Ayúdanos a ayudar a más gatos! En Michis Burger, cada compra ayuda a los
+                                            refugios para gatos."
+                                        </p>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-facebook-f"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-github-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="footer-flex-box">
+                                        <div class="footer-table-info">
+                                            <h3 class="h3-title">horarios de apertura</h3>
+                                            <ul>
+                                                <li><i class="uil uil-clock"></i> Martes viernes : 5pm - 12am</li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-menu food-nav-menu">
+                                            <h3 class="h3-title">Enlaces</h3>
+                                            <ul class="column-2">
+                                                <li>
+                                                    <a href="#home" class="footer-active-menu">Home</a>
+                                                </li>
+                                                <li><a href="#about">Acerca de</a></li>
+                                                <li><a href="#menu">Menú</a></li>
+                                                <li><a href="#gallery">Galería</a></li>
+                                                <li><a href="#blog">Blog</a></li>
+                                                <li><a href="#contact">Contacto</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-menu">
+                                            <h3 class="h3-title">Compañía</h3>
+                                            <ul>
+                                                <li><a href="#">Términos y Condiciones</a></li>
+                                                <li><a href="#">Política de privacidad</a></li>
+                                                <li><a href="#">Política de cookies</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <div class="copyright-text">
+                                    <p>Derechos de autor &copy; 2023 <span class="name">Kryptex Technology.</span>Todos los
+                                        derechos
+                                        Reservado.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="scrolltop"><i class="uil uil-angle-up"></i></button>
+                    </div>
+                </div>
+            </footer>
+
+
+        </div>
+
+        <!-- jquery  -->
+        <script src="../assets/js/jquery-3.5.1.min.js"></script>
+        <!-- bootstrap -->
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <script src="../assets/js/popper.min.js"></script>
+
+        <!-- fontawesome  -->
+        <script src="../assets/js/font-awesome.min.js"></script>
+
+        <!-- swiper slider  -->
+        <script src="../assets/js/swiper-bundle.min.js"></script>
+
+        <!-- mixitup -- filter  -->
+        <script src="../assets/js/jquery.mixitup.min.js"></script>
+
+        <!-- fancy box  -->
+        <script src="../assets/js/jquery.fancybox.min.js"></script>
+
+        <!-- parallax  -->
+        <script src="../assets/js/parallax.min.js"></script>
+
+        <!-- gsap  -->
+        <script src="../assets/js/gsap.min.js"></script>
+
+        <!-- scroll trigger  -->
+        <script src="../assets/js/ScrollTrigger.min.js"></script>
+        <!-- scroll to plugin  -->
+        <script src="../assets/js/ScrollToPlugin.min.js"></script>
+        <!-- rellax  -->
+        <!-- <script src="assets/js/rellax.min.js"></script> -->
+        <!-- <script src="assets/js/rellax-custom.js"></script> -->
+        <!-- smooth scroll  -->
+        <script src="../assets/js/smooth-scroll.js"></script>
+        <!-- custom js  -->
+        <script src="../main.js"></script>
+
+</body>
+
+</html>
